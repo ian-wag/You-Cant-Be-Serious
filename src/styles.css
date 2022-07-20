@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+body {
+  background-image: linear-gradient(
+    140deg,
+    hsl(211deg 100% 15%) 0%,
+    hsl(214deg 98% 16%) 15%,
+    hsl(218deg 96% 18%) 21%,
+    hsl(240deg 78% 27%) 48%,
+    hsl(244deg 76% 28%) 52%,
+    hsl(247deg 73% 29%) 56%,
+    hsl(250deg 70% 31%) 60%,
+    hsl(269deg 56% 39%) 85%,
+    hsl(272deg 54% 40%) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
+}
+
+a {
+  color: rgb(243, 10, 126);
+}
+/* a:visited {
+  color: white;
+} */
+a:hover {
+  color: rgb(255, 105, 180);
+}
+a:active {
+  color: rgb(0, 0, 255);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
